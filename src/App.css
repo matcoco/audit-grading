@@ -1,0 +1,159 @@
+/* Reset some basic styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="text"] {
+  width: calc(100% - 120px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.results {
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.result-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.result-item:hover {
+  background-color: #f0f0f0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  position: relative;
+}
+
+li .barcode {
+  margin-top: 10px;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.grade-summary {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.grade-summary h2 {
+  margin: 0 0 10px;
+  font-size: 32px;
+  color: #333;
+}
+
+.radio-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container input {
+  flex-grow: 1;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+}
+
+.grade-summary {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.grade-summary svg {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100px; /* Adjusted to make the barcode smaller */
+  height: auto;
+}
+
+li svg {
+  width: 100%;
+  max-width: 100px; /* Adjusted to make the barcode smaller */
+  height: auto;
+  margin-left: 10px; /* Added some space between the text and the barcode */
+}
