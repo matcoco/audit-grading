@@ -1,4 +1,27 @@
 /* Reset some basic styles */
+.type-products-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.type-products-header h1 {
+  margin: 0; /* Supprime les marges du titre pour un alignement précis */
+}
+
+.info-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.info-button:hover {
+  background-color: darkred;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -153,7 +176,7 @@ button:hover {
 
 li svg {
   width: 100%;
-  max-width: 100px; /* Adjusted to make the barcode smaller */
+  max-width: 200px; /* Adjusted to make the barcode smaller */
   height: auto;
   margin-left: 10px; /* Added some space between the text and the barcode */
 }
@@ -190,4 +213,13 @@ li svg {
     flex: 1 0 100px;
     margin: 5px;
   }
+}
+
+.type-products-container {
+  display: flex;
+  align-items: center;
+}
+
+.type-products-container > button {
+
 }

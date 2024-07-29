@@ -10,7 +10,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "BATTERY-FAULTY",
@@ -23,7 +24,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "MISSING BATTERY",
@@ -36,7 +38,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "BEZEL BROKEN",
@@ -49,7 +52,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "SCRATCHES ON BEZEL",
@@ -62,7 +66,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["3","4"]
+      "GRADE": ["3","4"],
+      "Comment":""
     },
     {
       "English": "LOCKED GOOGLE",
@@ -75,7 +80,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "LOCKED ICLOUD ID",
@@ -88,7 +94,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "LOCKED MDM",
@@ -101,7 +108,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "",
@@ -114,7 +122,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": ["3"]
+      "GRADE": ["3"],
+      "Comment":""
     },
     {
       "English": "BROKEN CASE",
@@ -127,7 +136,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "STICKY CASE",
@@ -140,7 +150,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "HEAVILY SCUFFED CASE",
@@ -153,7 +164,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "HEAVILY SCRATCHED CASE",
@@ -166,20 +178,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": ["4"]
-    },
-    {
-      "English": "LIGHTLY SCUFFED CASE",
-      "German": "LEICHTE ABNUTZUNG",
-      "French": "BOITIER LEGEREMENT ABIME",
-      "LT": true,
-      "PC": true,
-      "FS": true,
-      "OT": true,
-      "LP": true,
-      "SP": true,
-      "SV": true,
-      "GRADE": ["3","4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "SCRATCHED CASE",
@@ -192,7 +192,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": ["3"]
+      "GRADE": ["3"],
+      "Comment":""
     },
     {
       "English": "TWISTED CASE",
@@ -205,20 +206,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["4"]
-    },
-    {
-      "English": "LIGHTLY SCRATCHED CASE",
-      "German": "LEICHTE KRATZER",
-      "French": "BOTIER LEGEREMENT RAYE",
-      "LT": true,
-      "PC": true,
-      "FS": true,
-      "OT": true,
-      "LP": false,
-      "SP": false,
-      "SV": false,
-      "GRADE": ["3","4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "PAPER JAM",
@@ -231,7 +220,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "FAULTY MENU BUTTON",
@@ -244,7 +234,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY ON/OFF SWITCH",
@@ -257,7 +248,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F","S6"]
+      "GRADE": ["F","S6"],
+      "Comment":""
     },
     {
       "English": "FAULTY BACK CAMERA",
@@ -270,7 +262,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY MOTHERBOARD",
@@ -283,7 +276,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "MISSING CD/DVD",
@@ -296,7 +290,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "FAULTY HINGE BETWEEN SCREEN AND MOTHERBOARD",
@@ -309,7 +304,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY KEYBOARD",
@@ -322,7 +318,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "MISSING KEYBOARD",
@@ -335,7 +332,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "USED KEYBOARD",
@@ -348,7 +346,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "COMPUTRACE",
@@ -361,7 +360,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "RAID CONTROLLER NOT WORKING",
@@ -374,7 +374,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "CRACKED SCREEN",
@@ -387,7 +388,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "HEAVILY DAR",
@@ -400,7 +402,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["IMAGE BRULE"]
+      "GRADE": ["IMAGE BRULE"],
+      "Comment":""
     },
     {
       "English": "FAULTY LCD DISPLAY",
@@ -413,7 +416,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "DISPLAY PORT NOT WORKING",
@@ -426,7 +430,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "TRANSPORT DAMAGE",
@@ -439,7 +444,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "SMASHED SCREEN",
@@ -452,7 +458,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "HEAVILY SCRATCHED SCREEN",
@@ -465,7 +472,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["A","4"]
+      "GRADE": ["A","4"],
+      "Comment":""
     },
     {
       "English": "SCRATCHED SCREEN",
@@ -478,7 +486,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["A","3"]
+      "GRADE": ["A","3"],
+      "Comment":""
     },
     {
       "English": "PRESS MARKS ON SCREEN.",
@@ -491,7 +500,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["A","4"]
+      "GRADE": ["A","4"],
+      "Comment":""
     },
     {
       "English": "BELOW MINIMUM CONFIGURATION",
@@ -504,7 +514,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "TONER/INK LEAKAGE",
@@ -517,7 +528,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "SPEAKERS FAULTY",
@@ -530,7 +542,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "SMALLER THAN 17 INCHES",
@@ -543,7 +556,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "CRACKED LCD",
@@ -556,7 +570,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "PERMANENT LOGO",
@@ -569,7 +584,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "ETCHED LOGO/ASSET TO CASE TO CASE",
@@ -582,7 +598,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "MISSING POWER ADAPTER",
@@ -595,7 +612,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "MISSING SHEET FEEDERS",
@@ -608,7 +626,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "MISSING PSU/ADAPTOR",
@@ -621,7 +640,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "MISSING COVER PANELS",
@@ -634,7 +654,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["L"]
+      "GRADE": ["L"],
+      "Comment":""
     },
     {
       "English": "MISSING DUPLEXER",
@@ -647,7 +668,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "MISSING FRONT PANEL COVER",
@@ -660,7 +682,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["L"]
+      "GRADE": ["L"],
+      "Comment":""
     },
     {
       "English": "MISSING HDD",
@@ -673,7 +696,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "MISSING MEMORY",
@@ -686,7 +710,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "MISSING SCREEN STAND",
@@ -699,7 +724,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "MISSING PROCESSOR",
@@ -712,7 +738,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "RAILS MISSING",
@@ -725,7 +752,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": "-"
+      "GRADE": ["-"],
+      "Comment":"RACKMOUNT DAMAGED Y/N/ N/A CHOISIR N/A"
     },
     {
       "English": "MISSING PEN",
@@ -738,7 +766,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "MISSING HDD CADDY",
@@ -751,7 +780,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["L"]
+      "GRADE": ["L"],
+      "Comment":""
     },
     {
       "English": "MISSING PAPER TRAY",
@@ -764,7 +794,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "MISSING TONER",
@@ -777,7 +808,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "MISSING FUSER UNIT",
@@ -790,7 +822,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "MISSING SCREWS",
@@ -803,7 +836,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["L"]
+      "GRADE": ["L"],
+      "Comment":""
     },
     {
       "English": "BAD-PRINTOUT-QUALITY",
@@ -816,7 +850,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "FAULTY MICROPHONE",
@@ -829,7 +864,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "NO POWER ON",
@@ -842,7 +878,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "NON TESTED",
@@ -855,7 +892,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "NON-D",
@@ -868,7 +906,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": "-"
+      "GRADE": ["-"],
+      "Comment":""
     },
     {
       "English": "OXYDATION",
@@ -881,7 +920,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["4","S6"]
+      "GRADE": ["4","S6"],
+      "Comment":""
     },
     {
       "English": "NO LICENCE",
@@ -894,7 +934,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": "-"
+      "GRADE": ["-"],
+      "Comment":"NO DANS LE DYNAMIC"
     },
     {
       "English": "NO VIDEO SIGNAL",
@@ -907,7 +948,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "BIOS PASSWORD PROTECTED",
@@ -920,7 +962,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": "-"
+      "GRADE": ["-"],
+      "Comment":"RENVOYER BEAUCOUP DE MESSAGE A L'ADV"
     },
     {
       "English": "BIOS PASSWORD REMOVED",
@@ -933,7 +976,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": "-"
+      "GRADE": ["-"],
+      "Comment":""
     },
     {
       "English": "FAULTY SCREEN STAND",
@@ -946,7 +990,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "CMOS-BATTERY-EMPTY",
@@ -959,7 +1004,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": "-"
+      "GRADE": ["-"],
+      "Comment":""
     },
     {
       "English": "WHITE SPOT",
@@ -972,7 +1018,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "CHARGING PORT FAULTY",
@@ -985,7 +1032,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "FAULTY DVI",
@@ -998,7 +1046,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "NETWORK NOT WORKING",
@@ -1011,7 +1060,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F","F4"]
+      "GRADE": ["F","F4"],
+      "Comment":"F SI RJ45 HS et F+4 SI PORT RJ45 CASSE"
     },
     {
       "English": "HDMI NOT WORKING",
@@ -1024,7 +1074,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY SIM PORT",
@@ -1037,7 +1088,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F","S6"]
+      "GRADE": ["F","S6"],
+      "Comment":""
     },
     {
       "English": "USB PORT FAULTY",
@@ -1050,7 +1102,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY VGA",
@@ -1063,7 +1116,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "MISSING SIM GATE",
@@ -1076,7 +1130,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "FACTORY RESET PERFORMED",
@@ -1089,7 +1144,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["A","F"]
+      "GRADE": ["A","F"],
+      "Comment":""
     },
     {
       "English": "SERVICE ERROR",
@@ -1102,20 +1158,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
-    },
-    {
-      "English": "EMPTY SLOTS",
-      "German": "LEERE SLOTS",
-      "French": "SLOTS VIDES",
-      "LT": false,
-      "PC": false,
-      "FS": false,
-      "OT": false,
-      "LP": false,
-      "SP": false,
-      "SV": true,
-      "GRADE": "-"
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "GLUE STAIN",
@@ -1128,7 +1172,8 @@ export const GRADING = [
       "LP": true,
       "SP": true,
       "SV": true,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":"Peut être également en 3 si leger, sans le notifier dans l'entered comment"
     },
     {
       "English": "TACTILE",
@@ -1141,7 +1186,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": "-"
+      "GRADE": ["-"],
+      "Comment":"AUCUN GRADE"
     },
     {
       "English": "FAULTY TOUCHSCREEN",
@@ -1154,7 +1200,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY ROLLERS",
@@ -1167,7 +1214,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "TEST PRINT FAILED",
@@ -1180,7 +1228,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "TONER BELOW 25%",
@@ -1193,7 +1242,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "KEYS DELETED",
@@ -1206,7 +1256,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "MISSING KEYS",
@@ -1219,7 +1270,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":""
     },
     {
       "English": "FAULTY TOUCHPAD",
@@ -1232,7 +1284,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "USED TOUCHPAD",
@@ -1245,7 +1298,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["4"]
+      "GRADE": ["4"],
+      "Comment":""
     },
     {
       "English": "FAULTY TOUCH ID",
@@ -1258,7 +1312,8 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY TRANSFER BELT",
@@ -1271,7 +1326,8 @@ export const GRADING = [
       "LP": true,
       "SP": false,
       "SV": false,
-      "GRADE": ["S6"]
+      "GRADE": ["S6"],
+      "Comment":""
     },
     {
       "English": "FAULTY FAN",
@@ -1284,7 +1340,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F","S6"]
+      "GRADE": ["F","S6"],
+      "Comment":""
     },
     {
       "English": "VIBRATION FAULTY",
@@ -1297,7 +1354,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": true,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "FAULTY WEBCAM",
@@ -1310,7 +1368,8 @@ export const GRADING = [
       "LP": false,
       "SP": false,
       "SV": false,
-      "GRADE": ["F"]
+      "GRADE": ["F"],
+      "Comment":""
     },
     {
       "English": "",
@@ -1323,6 +1382,7 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": true,
-      "GRADE": ["F", "L"]
+      "GRADE": ["F", "L"],
+      "Comment":"SAUF QUAND 1 DISQUE SUR 2 FAIL NE PAS MODIFIER LE GRADE"
     }
   ]

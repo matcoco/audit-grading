@@ -1,11 +1,13 @@
 import React from 'react';
 
-const TypeProdutcs = ({ selectType, currentType }) => {
+const TypeProdutcs = ({ selectType, currentType, openTableWindow }) => {
   const types = ["LT", "PC", "OT", "FS", "LP", "SV", "SP"];
 
   return (
     <div>
-      <h1>Type de produits</h1>
+      <div className="type-products-header">
+        <h1>Type de produits</h1>
+      </div>
       <div className="radio-group">
         {types.map((type) => (
           <label key={type}>
@@ -19,7 +21,9 @@ const TypeProdutcs = ({ selectType, currentType }) => {
             {type}
           </label>
         ))}
+         <button onClick={openTableWindow} className="info-button">i</button>
       </div>
+     
     </div>
   );
 };

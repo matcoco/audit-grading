@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, useRef } from 'react';
 import './App.css';
 import { GRADING } from './Variables';
 import TypeProdutcs from './components/TypeProducts';
@@ -14,7 +14,7 @@ const calculateGrade = (grades) => {
   grades.forEach(grade => {
     if (grade === 'S6') {
       functional = 'S6';
-      return; // If any grade is S6, it takes priority over everything else
+      return;
     }
     if (grade === 'F') {
       functional = 'F';
@@ -44,6 +44,7 @@ const App = () => {
   const [filteredResults, setFilteredResults] = useState([]);
   const [addedElements, setAddedElements] = useState([]);
   const [addedElementsGrades, setAddedElementsGrades] = useState([]);
+  const searchInputRef = useRef(null);
 
   const selectCurrentCommentsType = useCallback((type) => {
     const filteredComments = GRADING.filter(comment => comment[type]);
@@ -88,16 +89,81 @@ const App = () => {
     }
   }, [currentType, selectCurrentCommentsType]);
 
+  useEffect(() => {
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, [searchQuery]);
+
+  const handleBarcodeScan = useCallback((event) => {
+    if (event.key === 'Enter' && filteredResults.length > 0) {
+      handleAddElement(filteredResults[0]);
+    }
+  }, [filteredResults, handleAddElement]);
+
+  const openTableWindow = useCallback(() => {
+    const tableWindow = window.open("", "", "width=800,height=600");
+    const tableContent = `
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <title>Table</title>
+          <style>
+            table {
+              width: 100%;
+              border-collapse: collapse;
+            }
+            th, td {
+              border: 1px solid black;
+              padding: 8px;
+              text-align: left;
+            }
+          </style>
+        </head>
+        <body>
+          <h1>Liste des commentaires disponibles pour le type ${currentType}</h1>
+          <table>
+            <thead>
+              <tr>
+                <th>Anglais</th>
+                <th>Français</th>
+                <th>Commentaires</th>
+                <th>Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${currentCommentsInList.map(item => `
+                <tr>
+                  <td>${item.English}</td>
+                  <td>${item.French}</td>
+                    <td>${item.Comment}</td>
+                  <td>${item.GRADE.join(", ")}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </body>
+      </html>
+    `;
+    tableWindow.document.write(tableContent);
+    tableWindow.document.close();
+  }, [currentCommentsInList, currentType]);
+
   const finalGrade = calculateGrade(addedElementsGrades.flat());
 
   return (
     <div className="App">
-      <TypeProdutcs selectType={selectType} currentType={currentType} />
+      <div className="type-products-container">
+        <TypeProdutcs selectType={selectType} currentType={currentType} openTableWindow={openTableWindow} />
+      </div>
+
       <SearchType
         searchQuery={searchQuery}
         handleSearch={handleSearch}
         filteredResults={filteredResults}
         handleAddElement={handleAddElement}
+        handleBarcodeScan={handleBarcodeScan}
+        searchInputRef={searchInputRef} // Pass the ref to SearchType component
       />
       <ul>
         {addedElements.map((comment, index) => (
