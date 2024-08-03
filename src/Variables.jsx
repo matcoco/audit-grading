@@ -1060,7 +1060,7 @@ export const GRADING = [
       "LP": false,
       "SP": true,
       "SV": false,
-      "GRADE": ["F","F4"],
+      "GRADE": ["F","4"],
       "Comment":"F SI RJ45 HS et F+4 SI PORT RJ45 CASSE"
     },
     {

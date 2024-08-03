@@ -165,12 +165,24 @@ const App = () => {
         handleBarcodeScan={handleBarcodeScan}
         searchInputRef={searchInputRef} // Pass the ref to SearchType component
       />
-      <ul>
+      <ul className="table">
         {addedElements.map((comment, index) => (
-          <li key={index}>
-            <Barcode value={comment.French} />
-            {comment.French} - {comment.GRADE.join(", ")}
-            <button onClick={() => handleRemoveElement(index)}>x</button>
+          <li key={index} className="table-row">
+            <div className="table-cell">
+              <Barcode value={comment.French} />
+            </div>
+            <div className="table-cell">
+              {comment.French}
+            </div>
+            <div className="table-cell color-grade">
+              {comment.GRADE.join(", ")}
+            </div>
+            <div className="table-cell" title={comment.Comment !== "" ? comment.Comment : ""}>
+              {comment.Comment !== "" ? "❗️" : ""}
+            </div>
+            <div className="table-cell">
+              <button onClick={() => handleRemoveElement(index)}>x</button>
+            </div>
           </li>
         ))}
       </ul>
